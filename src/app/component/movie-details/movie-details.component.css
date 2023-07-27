@@ -1,0 +1,18 @@
+.poster {
+  width: 100%;
+}
+
+.heading {
+  color: red;
+}
+
+.describe {
+  color: white;
+}
+.btn {
+  background-color: red;
+  color: white;
+}
+.btn:hover {
+  border: 2px white solid;
+}

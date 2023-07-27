@@ -1,0 +1,37 @@
+<div class="contain row m-5 p-3">
+  <div class="col-2 p-2">
+    <img
+      class="poster"
+      src="https://image.tmdb.org/t/p/original/{{
+        getMpvieDetailsResults.poster_path
+      }}"
+      alt=""
+    />
+  </div>
+  <div class="col-10 p-2">
+    <h1 class="heading">{{ getMpvieDetailsResults.original_title }}</h1>
+    <p class="describe">{{ getMpvieDetailsResults.overview }}</p>
+    <a
+      class="btn"
+      href="https://www.themoviedb.org/video/play?key={{ getMovieVideo }}"
+      target="_blank"
+      >Watch Trailiar</a
+    >
+    <div class="row">
+      <h2 class="text-white mt-3">TOP CAST</h2>
+      <div class="col-4 mt-2 mb-2" *ngFor="let c of getMovieCast">
+        <div class="col-4">
+          <img
+            class="poster"
+            src="https://image.tmdb.org/t/p/original/{{ c.profile_path }}"
+            alt=""
+          />
+        </div>
+        <div class="col-8 text-white">
+          <p class="mb-0 text-danger">{{ c.character }}</p>
+          <p class="mb-0">{{ c.name }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
