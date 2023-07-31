@@ -3,7 +3,7 @@
 <div>
   <p>project link</p>
   ####:
-  [the applcation](https://legendary-meringue-062ef2.netlify.app)
+  [the applcation](https://legendary-meringue-062ef2.netlify.app) -
 </div>
 
 
