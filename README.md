@@ -13,5 +13,5 @@
 </div>
 
 <div>
-  <img src="https://drive.google.com/drive/folders/173CHVm2qXphFQsp-XxpjWoZ6fDfg9HXL" width="100px">
+  <img src="https://drive.google.com/drive/folders/173CHVm2qXphFQsp-XxpjWoZ6fDfg9HXL">
 </div>
