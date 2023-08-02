@@ -3,7 +3,7 @@
 <div>
   <p>project link</p>
  
-(https://legendary-meringue-062ef2.netlify.app) 
+([https://legendary-meringue-062ef2.netlify.app](https://64ca56b2cf57ad1c3990cccb--taupe-lolly-e136e0.netlify.app/)) 
 </div>
 
 
